@@ -176,3 +176,50 @@ override the black */
 .winning-message.show {
     display: flex;
 }
+
+/* Players Input */
+
+#players-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.input-player {
+    width: 130px;
+    height: 25px;
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    font-size: 15px;
+}
+
+.player {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#start-button {
+    margin-bottom: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+
+/* New game button */
+.new-game {
+    display: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.new-game-add {
+    display: inline;
+}
+
+
+
+

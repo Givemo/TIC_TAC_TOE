@@ -10,16 +10,30 @@
 
     <h1>Tic Tac Toe</h1>
 
+    <form action="submit" id="players-form">
+       <div id="player1" class="player">
+           <label for="input-player1" >Player 1</label>
+           <input type="text" class="input-player" id="input-player1" placeholder="Enter Player name">
+       </div>
+       <div id="player1" class="player">
+        <label for="input-player1">Player 2</label>
+           <input type="text" class="input-player" id="input-player2" placeholder="Enter Player name">
+       </div>
+    </form>
+
+    <button id="start-button" onclick="startGame()">Start</button>
+    <button id="new-game" class="new-game" onclick="window.location.reload();">New Game</button>
+
     <div class="container" id="container">
-        <div class="cell" id="cell1"></div>
-        <div class="cell" id="cell1"></div>
-        <div class="cell " id="cell1"></div>
-        <div class="cell" id="cell1"></div>
-        <div class="cell" id="cell1"></div>
-        <div class="cell" id="cell1"></div>
-        <div class="cell" id="cell1"></div>
-        <div class="cell" id="cell1"></div>
-        <div class="cell" id="cell1"></div>
+        <div class="cell" id="0"></div>
+        <div class="cell" id="1"></div>
+        <div class="cell" id="2"></div>
+        <div class="cell" id="3"></div>
+        <div class="cell" id="4"></div>
+        <div class="cell" id="5"></div>
+        <div class="cell" id="6"></div>
+        <div class="cell" id="7"></div>
+        <div class="cell" id="8"></div>
     </div>
 
     <div class="winning-message" id="winning-message">
